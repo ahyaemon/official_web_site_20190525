@@ -13,9 +13,14 @@ export default {
   },
   loading: { color: "#3B8070" },
   css: ["~/assets/css/main.css"],
-  build: {},
+  build: {
+    extractCSS: {
+      allChunks: true,
+    },
+  },
   modules: [
     // "@nuxtjs/axios",
+    "nuxt-compress",
   ],
   axios: {},
   mode: "spa"
