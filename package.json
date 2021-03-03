@@ -21,7 +21,7 @@
     "@nuxt/typescript": "2.6.3",
     "@types/node": "10.14.7",
     "@types/webpack-env": "1.13.9",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0"
   }
 }
